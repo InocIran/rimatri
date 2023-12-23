@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="profilepic">
+      <img src="images/rimatri.png" alt="Profilepic" />
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Our Blog</a></li>
+        <li class="contacts"><a href="contact.html">CONTACTS</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="welcome-content">
+    <h1>Welcome to Rimatri Riverde</h1><br>
+    <p>Explore of the Handsomeness!</p>
+  </div>
+
+  <div class="Hs-container" id="about">
+    <h3 class="Hs-center">ABOUT THE RIMATRI RIVERDE</h3>
+    <p class="Hs-center Hs-large">That you can find the handsomeness.</p>
+
+    <div class="Hs-row-padding Hs-center">
+      <div class="Hs-quarter">
+        <img src="images/chARMING.png" alt="Charming">
+        <p class="Hs-large">Charming</p>
+        <p class="Hs-center Hs-large">Displays a pleasant and attractive personality, often drawing others in through amiability and grace.</p>
+      </div>
+      <div class="Hs-quarter">
+        <img src="images/confident.png" alt="Confident">
+        <p class="Hs-large">Confident</p>
+        <p class="Hs-center Hs-large"> Exhibits self-assurance and belief in oneself, demonstrating a strong sense of assurance in various situations.</p>
+      </div>
+      <div class="Hs-quarter">
+        <img src="images/charismatic.png" alt="Charismatic">
+        <p class="Hs-large">Charismatic</p>
+        <p class="Hs-center Hs-large"> Possesses a magnetic and compelling personality, captivating and inspiring others through their presence and communication.</p>
+      </div>
+      <div class="Hs-quarter">
+        <img src="images/Stylish.png" alt="Stylish">
+        <p class="Hs-large">Stylish</p>
+        <p class="Hs-center Hs-large">Exhibits a keen sense of fashion or personal flair, presenting oneself with elegance and tastefulness in appearance.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="Hs-container Hs-light-grey" id="promo">
+    <div class="Hs-row-padding">
+      <div class="Hs-col m6">
+        <h3>We know we are ugly.</h3>
+        <p>- But a truly handsome person is someone whose beauty radiates from within.</p>
+        <p><a href="blog.html" class="Hs-button Hs-black"><i class="fa fa-th"> </i> View Our Blog</a></p>
+      </div>
+      <div class="Hs-col m6">
+        <img class="Hs-image Hs-round-large" src="images/rimatri.png" alt="RIMATRI" width="400" height="100">
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div id="Gallery" class="container">
+    <div class="imagecontainer">
+        <img class="Image" src="images/rixz.png" alt="Rixz Ivan" />
+        <h2>Rixz Ivan Montero</h2>
+        <p>
+          "Handsomeness is half character. Handsomeness is like a melody, everyone hears, yet only the chosen feel." 
+        </p>
+        <button class="like-button" onclick="toggleLike()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button" onclick="toggleHeart()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button" onclick="toggleAngry()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button" onclick="toggleLaugh()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+    <div class="imagecontainer">
+        <img class="Image" src="images/mark.png" alt="Mark" />
+        <h2>Mark Inoc</h2>
+        <p>
+          "True handsomeness lies in the purity of the heart." 
+        </p><br><br>
+        <button class="like-button1" onclick="toggleLike1()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button1" onclick="toggleHeart1()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button1" onclick="toggleAngry1()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button1" onclick="toggleLaugh1()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+    <div class="imagecontainer">
+        <img class="Image" src="images/tristan.png" alt="Tristan" />
+        <h2>Tristan Niel Iran</h2>
+        <p>
+          "Beauty fades, but handsomeness grows; learn to see beyond what the eyes show."
+        </p><br>
+        <button class="like-button2" onclick="toggleLike2()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button2" onclick="toggleHeart2()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button2" onclick="toggleAngry2()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button2" onclick="toggleLaugh2()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="imagecontainer">
+        <img class="Image" src="images/otoy.png" alt="Jhon Rhead" />
+        <h2>Jhon Rhead Ritania</h2>
+        <p>
+          "The true definition of handsomeness is not what the eyes behold, but what the heart sees and feels."
+        </p><br>
+        <button class="like-button3" onclick="toggleLike3()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button3" onclick="toggleHeart3()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button3" onclick="toggleAngry3()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button3" onclick="toggleLaugh3()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+    <div class="imagecontainer">
+        <img class="Image" src="images/verdida.png" alt="Junifer" />
+        <h2>Junifer Verdida</h2>
+        <p>
+          "Handsomest is he whose every action is a poem."
+        </p><br><br>
+        <button class="like-button4" onclick="toggleLike4()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button4" onclick="toggleHeart4()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button4" onclick="toggleAngry4()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button4" onclick="toggleLaugh4()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+    <div class="imagecontainer">
+        <img class="Image" src="images/loyd.png" alt="Genlloyd" />
+        <h2>Genlloyd Dejillo</h2>
+        <p>
+          "A truly handsome person is someone whose beauty radiates from within."
+        </p><br>
+        <button class="like-button5" onclick="toggleLike5()">
+          <i class="fas fa-thumbs-up"></i>
+          Like
+        </button>
+        <button class="heart-button5" onclick="toggleHeart5()">
+          <i class="fas fa-heart"></i>
+          Heart
+        </button>
+        <button class="angry-button5" onclick="toggleAngry5()">
+          <i class="fas fa-angry"></i>
+          Angry
+        </button>
+        <button class="laugh-button5" onclick="toggleLaugh5()">
+          <i class="fas fa-laugh"></i>
+          Laugh
+        </button>
+    </div>
+</div>
+
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Have questions? Contact us using the form below or through our email and phone.</p>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p>Email: rimatririverdi@gmail.com</p>
+    
+  
+    
+    <p>Phone: +639062541453</p>
+  </div>
+</section>
+</main>
+
+
+<footer>
+<div class="footer-content">
+  <p>&copy; 2023 RIMATRI RIVERDI. All rights reserved.</p>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="blog.html">Our Blog</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+</footer>
+<script src="script/script.js"></script>
+
+</body>
+</html>

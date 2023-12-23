@@ -1,0 +1,675 @@
+@media screen and (max-width: 767px) {
+  
+}
+
+.welcome-content h1 {
+  font-size: 100px;
+}
+
+body {
+  justify-content: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0cbab;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+
+.profilepic {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin: none;
+}
+
+.profilepic img {
+  width: 50%;
+}
+
+.menu {
+  padding-top: 10px;
+  margin: none;
+  list-style: none;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu li {
+  font-size: 18px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 50px;
+  transition: 0.8s ease;
+  border: 2px solid #976A49;
+}
+
+.menu li:hover {
+  background-color: #f0cbab;
+  box-shadow: 0px 0px 15px #976A49;
+  border: 2px solid #976A49;
+  transition: 0.6s;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.menu .logout {
+  background-color: #976A49;
+}
+
+.menu .contacts{
+  background-color: transparent;
+}
+
+.welcome-content {
+  text-align: center;
+  color: white;
+  background-image: url(../images/backwelpage.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-text {
+  padding: 20px;
+}
+
+.welcome-content h1 {
+  font-size: 90px;
+  margin-bottom: -20px;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+}
+
+.Hs-container {
+  padding: 128px 16px;
+}
+
+.Hs-center {
+  text-align: center;
+  color: #000;
+}
+
+.Hs-large {
+  font-size: 1.2em;
+}
+
+.Hs-row-padding {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+  gap: 50px;
+}
+
+.Hs-row-padding h3{
+  color: azure;
+}
+
+.Hs-row-padding p{
+  color: white;
+}
+
+.Hs-quarter {
+  width: 25%;
+  padding: 0 16px;
+}
+
+.Hs-quarter img {
+  height: 90px;
+}
+
+.Hs-quarter p {
+  margin-bottom: 24px;
+  color: #000;
+
+}
+
+.Hs-light-grey {
+  background-color: #000000;
+  padding: 128px 16px;
+}
+
+.Hs-col {
+  padding: 0 16px;
+}
+
+.Hs-round-large {
+  border-radius: 12px;
+}
+
+
+
+/* Us Layout */
+
+.imagecontainer {
+  margin: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 30%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  justify-items: left;
+  transition: 0.8s ease;
+  align-items: center;
+  text-align: center;
+}
+
+.imagecontainer:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 10px rgb(0, 0, 0);
+  backdrop-filter: blur(20px);
+}
+.imagecontainer h2{
+  color: #dad3d1;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.imagecontainer p{
+  color: rgb(0, 0, 0);
+}
+
+
+
+.Image {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-top: 0px;
+} 
+
+.pageTitle {
+  color: #dad3d1;
+  text-align: center;
+  width: 100%;
+  font-size: 80px;
+  text-shadow: 5px 5px 20px rgb(255, 255, 255);
+  margin: 0px;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-bottom: 100px;
+}
+
+
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.contact-section label,
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-info p {
+  margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-content ul li {
+  margin-right: 20px;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* Like Button styles */
+.like-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button.liked {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button.hearted {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button.angred {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.laugh-button.laughed {
+  background-color: yellow;
+  color: #fff;
+}
+
+
+.like-button1 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button1.liked1 {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button1 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button1.hearted1 {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button1 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button1.angred1 {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button1 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.laugh-button1.laughed1 {
+  background-color: yellow;
+  color: #fff;
+}
+
+
+.like-button2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button2.liked2 {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button2.hearted2 {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button2.angred2 {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.laugh-button2.laughed2 {
+  background-color: yellow;
+  color: #fff;
+}
+
+.like-button3 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button3.liked3 {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button3 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button3.hearted3 {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button3 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button3.angred3 {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button3 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.laugh-button3.laughed3 {
+  background-color: yellow;
+  color: #fff;
+}
+
+.like-button4 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button4.liked4 {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button4 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button4.hearted4 {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button4 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button4.angred4 {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button4 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.laugh-button4.laughed4 {
+  background-color: yellow;
+  color: #fff;
+}
+
+.like-button5 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button5.liked5 {
+  background-color: blue;
+  color: #fff;
+}
+
+.heart-button5 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heart-button5.hearted5 {
+  background-color: pink;
+  color: #fff;
+}
+
+.angry-button5 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angry-button5.angred5 {
+  background-color: red;
+  color: #fff;
+}
+
+.laugh-button5 {
+  padding: 5px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.laugh-button5.laughed5 {
+  background-color: yellow;
+  color: #fff;
+}
